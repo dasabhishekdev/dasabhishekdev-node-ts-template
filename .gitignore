@@ -1,5 +1,8 @@
 node_modules
-config
+build
 dist
 .env.*
-*.md
+*.conf
+*.yaml
+*.yml
+*.log

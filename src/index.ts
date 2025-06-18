@@ -1,5 +1,5 @@
 import app from './app';
-import loaders from './app/loaders'; // Import the centralized loader
+import loaders from './loaders'; // Import the centralized loader
 import './environment';
 
 const startServer = async () => {

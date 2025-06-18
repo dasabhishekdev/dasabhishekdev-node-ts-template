@@ -1,7 +1,4 @@
-import HttpStatus, {
-  TGlobalStatus,
-  THttpStatusCode,
-} from '../constants/http_status';
+import HttpStatus, { TGlobalStatus, THttpStatusCode } from './http_status';
 
 export class ApiError extends Error {
   public status: THttpStatusCode;

@@ -4,12 +4,11 @@ import {
   ShardRegion,
   TShardRegion,
   TUserRole,
-  HttpStatus,
 } from '@libs/constants';
 import Counter from './counter';
 import bcrypt from 'bcryptjs';
 import { v4 as uuidv4 } from 'uuid';
-import { ApiError } from '@libs/response_handlers';
+import { ApiError, HttpStatus } from '@libs/response_handlers';
 
 export interface IUser {
   serial_number: number;

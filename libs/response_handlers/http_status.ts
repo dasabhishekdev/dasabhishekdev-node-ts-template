@@ -148,8 +148,11 @@ export class HttpStatus {
   static all() {
     return this.codes;
   }
-  static getHttpStatusCode(name: string) {
-    return this.codes[name] || 500; // Default to 500 if not found
+  static getHttpStatusCode(name: string): number {
+    if (Object.prototype.hasOwnProperty.call(this.codes, name)) {
+      return (this.codes as Record<string, number>)[name];
+    }
+    return 500;
   }
 }
 

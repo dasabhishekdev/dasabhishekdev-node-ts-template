@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { AuthController } from '../src/app/controller';
+import { AuthController } from '../src/controller';
 
 describe('Login', () => {
   it('should return 200 for valid credentials', async () => {

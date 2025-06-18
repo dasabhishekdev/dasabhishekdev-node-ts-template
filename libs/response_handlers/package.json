@@ -1,0 +1,13 @@
+{
+  "name": "response_handlers",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Standardized API response and error handling for Node.js/Express (TS & JS)",
+  "keywords": ["express", "response", "error", "typescript", "api"],
+  "author": "Abhishek Das",
+  "license": "MIT",
+  "scripts": {
+  "build": "tsc"
+}
+}

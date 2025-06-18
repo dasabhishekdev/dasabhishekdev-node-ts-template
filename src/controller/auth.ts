@@ -1,8 +1,7 @@
-import { ApiError } from '@libs/response_handlers';
+import { ApiError, HttpStatus } from '@libs/response_handlers';
 import { Request, Response, NextFunction } from 'express';
 import { z, ZodSchema } from 'zod';
 import { User } from '../models';
-import { HttpStatus } from '@libs/constants';
 
 export class AuthController {
   // Encapsulate schema as a private static member
