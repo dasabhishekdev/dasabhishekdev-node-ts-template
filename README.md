@@ -29,8 +29,8 @@ Designed for high concurrency (10 lakh+ users), atomic operations, and best prac
 ### 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/dasabhishekdev/ts-nodejs-service-best-practice.git
-cd  ts-nodejs-service-best-practice
+git clone https://github.com/dasabhishekdev/dasabhishekdev-node-ts-template.git
+cd  dasabhishekdev-node-ts-template
 ```
 
 ### 2. **Install Dependencies**
